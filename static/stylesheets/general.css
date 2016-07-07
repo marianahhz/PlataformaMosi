@@ -1,0 +1,37 @@
+
+.logo {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: -15px;
+}
+
+.navbar-brand>img {
+    width: 40px;
+      /*display: inline;*/
+}
+
+.navbar-brand {
+    font-family: 'Questrial';
+  color : white!important;
+  font-size: 30px;
+}
+
+.navbar-default {
+background-color: transparent;
+      border-width: 0px 0px 2px 0px;
+    border-bottom-color: #e7e7e7;
+    height: 60px;
+  z-index: 99;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Oswald';
+}
+
+
+.barra.ng-hide-remove      { animation:0.5s fadeInDownBig ease; }

@@ -1,0 +1,30 @@
+
+<div class="container-fluid hola">
+  <div class="row logo">
+    <div class="col-md-12 col-lg-12 intro">
+      <div class="logo-container"  ><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;citrus <img  ng-show="vm.logo" class="logo-img"  ng-src="../static/logo_citrus.png"></p></div>
+      <h1 class="mensaje1">Desarrollo de software para</h1>
+      <div class="">
+      <h1 class="mensaje2"> <strong> <typer words="vm.mensajes" type-time='130' backspace-time='100' start-delay='1500' highlight-background='transparent' on-complete="vm.features()" repeat="false" start-typing="true"></typer> </strong></h1>
+        </div>
+              
+    </div>
+<!--    <div class="col-md-4">
+    ><img class="logo-img" src="../static/logo%20citrus.png" />
+    
+    </div>-->
+  </div>
+  <div class="row features">
+  <div class="col-lg-4 col-lg-offset-0" ng-show="vm.seccion1" > <i ng-show="vm.seccion1" class="fa fa-code fa-4x seccion1"></i>
+    <h3>Transformamos tus ideas a código.</h3>
+    </div>
+  <div class="col-lg-4" class="seccion2" ng-show="vm.seccion2"> <i ng-show="vm.seccion2" class="fa fa-bar-chart fa-4x seccion2"></i>
+    <h3>Potencia tu negocio.</h3>
+    <h2 class="flecha" ng-show="vm.flecha"> <i class="fa fa-arrow-circle-down"></i></h2>  
+    </div>
+  <div class="col-lg-4" class="seccion3" ng-show="vm.seccion3"> <i ng-show="vm.seccion3" class="fa fa-globe fa-4x seccion3"></i>
+    <h3>Ve más alla.</h3>
+    </div>
+  </div>
+
+</div>
